@@ -44,6 +44,19 @@
   font-family: Estedad-Thin;
   src: url(/fonts/Estedad-Thin.ttf);
 }
+body.dark {
+  background-color: #000;
+}
+body.dark main header nav ul li a {
+  color: #fff !important;
+}
+body.dark main .Products h2 {
+  color: #fff !important;
+}
+body.dark main .view a {
+  color: #fff !important;
+}
+
 body main header nav .logo img {
   width: 150px;
   height: 100px;
@@ -52,6 +65,7 @@ body main header nav ul {
   width: 100%;
 }
 body main header nav ul li a {
+  color: #000 !important;
   font-family: Estedad-Regular;
 }
 body main header nav ul li a:hover {
@@ -77,6 +91,7 @@ body main .Products .products__card .card img .card-body h6 {
   font-family: Estedad-Regular;
 }
 body main .Products .view a {
+  color: #000;
   text-decoration: none;
   font-family: Estedad-Regular;
 }
